@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/wherear3y0/C++/ClionProjects/snake/cmake-build-debug",
-		"source" : "/Users/wherear3y0/C++/ClionProjects/snake"
+		"build" : "/Users/wherear3y0/C++/ClionProjects/simplecalculatorcpp/cmake-build-debug",
+		"source" : "/Users/wherear3y0/C++/ClionProjects/simplecalculatorcpp"
 	},
 	"version" : 
 	{
