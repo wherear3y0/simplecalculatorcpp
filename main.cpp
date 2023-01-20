@@ -6,24 +6,29 @@ using namespace std;
 
 int main(void) {
 
+    cout << "Привет!" << endl;
+    cout << "Это простой калькулятор" << endl;
+    cout << "Как пользоваться и так ясно" << endl;
+
+
     float a, b, c;
     char d;
     int p;
 
     while (p != 2) {
 
-        cout << "1 = calculator \n2 - exit \n";
+        cout << "1 = открыть калькулятор \n2 - выйти \n";
         cin >> p;
 
         switch (p) {
             case 1: {
-                cout << "First number ";
+                cout << "Первое число ";
 
                 cin >> a;
-                cout << "Action with numbers ";
+                cout << "Что ты хочешь сделать с числами ";
 
                 cin >> d;
-                cout << "Second number ";
+                cout << "Второе число ";
 
                 cin >> b;
 
@@ -49,6 +54,6 @@ int main(void) {
             }
         }
 
-        cout << "Result = " << c << endl;
+        cout << "Что получилось = " << c << endl;
     }
 }
